@@ -18,13 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Parallax effect on hero section
-    const hero = document.getElementById('hero');
-    window.addEventListener('scroll', function() {
-        const offset = window.pageYOffset;
-        hero.style.backgroundPositionY = offset * 0.7 + 'px';
+    // Hero's parallex effect
+    document.addEventListener('scroll', function() {
+        const hero = document.getElementById('hero');
+        const scrollPosition = window.scrollY;
+        
+        // Apply a parallax effect by adjusting the background position
+        hero.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
     });
-
+    
+    
     // Hover effects for project cards
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach(card => {
