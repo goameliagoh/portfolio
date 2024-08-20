@@ -3,13 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     box-sizing: border-box;
 }
 
 /* Navigation */
 header {
     background-color: #EBEBDF;
-    padding: 1rem 2rem;
+    padding: 1rem 4.2rem;
 }
 
 .nav-links {
@@ -103,12 +104,41 @@ header {
 
 /* About Me Section */
 .inner-section h2{
-    padding: 2rem;
+    padding-top: 3rem;
+    padding-left: 3.5rem;
+    font-size: 2.6rem;
+    color: #310327;
+    font-family: "Domine", serif;
 }
 
-.about-content{
-    padding: 3rem;
+.about-container {
+    display: flex;
+    flex-direction: row; /* Aligns items in a row: text on left, image on right */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: -5.5rem;
+    margin-left: 2rem;
 }
+
+.about-content {
+    flex: 1; /* Makes the text content take up available space */
+    padding: 3rem;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    margin-top: 1rem;
+}
+
+.about-image {
+    margin-left: 2.5rem; /* Adds space between the text and the image */
+}
+
+.about-image img {
+    max-width: 100%; /* Ensures the image resizes within its container */
+    height: auto;
+    margin-right: 5.5rem;
+}
+
 
 /* Projects Section */
 .project-cards {
