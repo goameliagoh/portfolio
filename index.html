@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amelia Goh's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
@@ -59,32 +59,40 @@
         <h2>My Projects</h2>
         <div class="project-cards">
             <div class="project-card">
-                <img src="placeholder-project1.jpg" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>A brief description of your project goes here. Highlight the technologies used and the problem solved.</p>
+                <button class="prev-btn">&lt;</button>
+                <img id="project-image-1" src="images/jewelleryWebImage1.jpg" alt="Project 1">
+                <button class="next-btn">&gt;</button>
+                <h3>Ever Lovely Jewel Website</h3>
+                <p>I created my first website for a fictional jewelry store called Ever Lovely Jewel, focusing entirely on front-end development. The website was built using HTML, CSS, and simple JavaScript. The images above features the product page displaying necklaces followed by the product details with the footer. Lastly, it shows the contact page. No back-end development involved in this project as the primary goal of this project was to showcase front-end skills and the assignment was marked solely on that component.</p>
             </div>
             <div class="project-card">
-                <img src="placeholder-project2.jpg" alt="Project 2">
+                <button class="prev-btn">&lt;</button>
+                <img id="project-image-2" src="placeholder-project2.jpg" alt="Project 2">
+                <button class="next-btn">&gt;</button>
                 <h3>Project Title 2</h3>
                 <p>A brief description of your project goes here. Highlight the technologies used and the problem solved.</p>
             </div>
         </div>
-    </section>
+    </section>    
 
     <section id="contact" class="inner-section">
         <h2>Contact Me</h2>
         <div class="contact-details">
             <div class="contact-item">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                <p><a href="www.linkedin.com/in/amelia-goh-goameliagoh">linkedin.com/in/amelia-goh-goameliagoh</a></p>
             </div>
             <div class="contact-item">
-                <img src="outlook-icon.png" alt="Outlook Icon" class="contact-icon">
-                <p><a href="mailto:youremail@outlook.com">youremail@outlook.com</a></p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p><a href="mailto:amelliagoh@hotmail.com">amelliagoh@hotmail.com</a></p>
             </div>
             <div class="contact-item">
-                <img src="phone-icon.png" alt="Phone Icon" class="contact-icon">
-                <p>+123 456 7890</p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p><a href="mailto:s10257856@connect.np.edu.sg">s10257856@connect.np.edu.sg</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>+65 9149 7701</p>
             </div>
         </div>
     </section>

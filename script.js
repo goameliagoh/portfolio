@@ -38,4 +38,37 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
         });
     });
+
+    // Scrolling slideshow for project cards
+    const projectImages = {
+        "project-image-1": [
+            "images/jewelleryWebImage1.jpg",
+            "images/jewelleryWebImage2.jpg",
+            "images/jewelleryWebImage3.jpg",
+            "images/jewelleryWebImage4.jpg"
+        ],
+        "project-image-2": [
+            "placeholder-project2.jpg",
+            "images/otherImage1.jpg",
+            "images/otherImage2.jpg"
+        ]
+    };
+
+    document.querySelectorAll('.project-card').forEach(card => {
+        let currentIndex = 0;
+        const imgElement = card.querySelector('img');
+        const prevBtn = card.querySelector('.prev-btn');
+        const nextBtn = card.querySelector('.next-btn');
+        const imgId = imgElement.id;
+
+        prevBtn.addEventListener('click', function () {
+            currentIndex = (currentIndex === 0) ? projectImages[imgId].length - 1 : currentIndex - 1;
+            imgElement.src = projectImages[imgId][currentIndex];
+        });
+
+        nextBtn.addEventListener('click', function () {
+            currentIndex = (currentIndex === projectImages[imgId].length - 1) ? 0 : currentIndex + 1;
+            imgElement.src = projectImages[imgId][currentIndex];
+        });
+    });    
 });

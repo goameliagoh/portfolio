@@ -145,9 +145,12 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    padding: 3rem;
+    margin-top: -1rem;
 }
 
 .project-card {
+    position: relative;
     background: #fff;
     padding: 1.5rem;
     border-radius: 10px;
@@ -163,6 +166,7 @@ header {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
+    object-fit: cover;
 }
 
 .project-card h3 {
@@ -174,6 +178,33 @@ header {
 .project-card p {
     font-size: 1rem;
     color: #666;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: -3.2rem;
+    opacity: 0; /* Hide buttons by default */
+    transition: opacity 0.3s;
+}
+
+.project-card:hover .prev-btn,
+.project-card:hover .next-btn {
+    opacity: 1; /* Show buttons on hover */
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
 }
 
 /* Contact Section */
