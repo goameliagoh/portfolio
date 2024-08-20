@@ -15,14 +15,15 @@ header {
 .nav-links {
     display: flex;
     list-style: none;
+    margin-left: -52px;
 }
 
 .nav-links a {
     color: #310327;
     text-decoration: none;
     font-weight: 500;
-    margin-right: 4rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 1rem; /* Add spacing between the diff nav links */
 }
 
 .nav-links a:hover {
@@ -33,7 +34,7 @@ header {
     font-size: 2.8rem;
     color: #310327;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
     margin-top: 35px;
     font-family: "Domine", serif;
 }
@@ -65,7 +66,7 @@ header {
     transition: background-position 0.5s ease-out; /* For parallex effect */
 }
 
-.about-content {
+.welcome-content {
     display: flex;
     align-items: center;
     max-width: 1200px;
@@ -74,26 +75,39 @@ header {
 
 .profile-pic {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 
-.about-text {
-    max-width: 600px;
+.welcome-text {
+    max-width: 700px;
 }
 
-.about-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #333;
+.welcome-text h1 {
+    font-size: 7rem;
+    color: #310327;
 }
 
-.about-text p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #666;
+.welcome-text p{
+    font-size: 1.9rem;
+    color: white;
+    margin-top: -5.3rem;
+    margin-left: 1.1rem; 
+    word-spacing: 4.7rem;
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* About Me Section */
+.inner-section h2{
+    padding: 2rem;
+}
+
+.about-content{
+    padding: 3rem;
 }
 
 /* Projects Section */
