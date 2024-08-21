@@ -48,9 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "images/jewelleryWebImage4.jpg"
         ],
         "project-image-2": [
-            "placeholder-project2.jpg",
-            "images/otherImage1.jpg",
-            "images/otherImage2.jpg"
+            "images/clothingWebImage1.jpg",
+            "images/clothingWebImage2.jpg",
+            "images/clothingWebImage3.jpg",
+            "images/clothingWebImage4.jpg",
+            "images/clothingWebImage5.jpg",
+            "images/clothingWebImage6.jpg",
+            "images/clothingWebImage7.jpg",
+            "images/clothingWebImage8.jpg",
+            "images/clothingWebImage9.jpg",
+            "images/clothingWebImage10.jpg"
         ]
     };
 
