@@ -58,7 +58,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "images/clothingWebImage8.jpg",
             "images/clothingWebImage9.jpg",
             "images/clothingWebImage10.jpg"
-        ]
+        ],
+        "project-image-3": [
+            "images/educationWebImage1.jpg",
+            "images/educationWebImage2.jpg",
+            "images/educationWebImage3.jpg",
+            "images/educationWebImage4.jpg",
+            "images/educationWebImage5.jpg",
+            "images/educationWebImage6.jpg",
+            "images/educationWebImage7.jpg",
+            "images/educationWebImage8.jpg"        ]
     };
 
     document.querySelectorAll('.project-card').forEach(card => {
