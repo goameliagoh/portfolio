@@ -67,7 +67,27 @@ document.addEventListener('DOMContentLoaded', () => {
             "images/educationWebImage5.jpg",
             "images/educationWebImage6.jpg",
             "images/educationWebImage7.jpg",
-            "images/educationWebImage8.jpg"        ]
+            "images/educationWebImage8.jpg"        
+        ], 
+        "project-image-4": [
+            "images/buildingGameImage1.jpg",
+            "images/buildingGameImage2.jpg",
+            "images/buildingGameImage3.jpg",
+            "images/buildingGameImage4.jpg",
+            "images/buildingGameImage5.jpg",    
+            "images/buildingGameImage6.jpg",     
+            "images/buildingGameImage7.jpg",
+            "images/buildingGameImage8.jpg",
+            "images/buildingGameImage9.jpg",
+            "images/buildingGameImage10.jpg",
+            "images/buildingGameImage11.jpg",    
+            "images/buildingGameImage12.jpg",   
+            "images/buildingGameImage13.jpg",
+            "images/buildingGameImage14.jpg",
+            "images/buildingGameImage15.jpg",    
+            "images/buildingGameImage16.jpg",   
+            "images/buildingGameImage17.jpg"
+        ]
     };
 
     document.querySelectorAll('.project-card').forEach(card => {
