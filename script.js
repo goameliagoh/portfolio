@@ -87,6 +87,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "images/buildingGameImage15.jpg",    
             "images/buildingGameImage16.jpg",   
             "images/buildingGameImage17.jpg"
+        ],
+        "project-image-5": [
+            "images/chatbotHeart2HeartImage1.jpg",
+            "images/chatbotHeart2HeartImage2.jpg",
+            "images/chatbotHeart2HeartImage3.jpg",
+            "images/chatbotHeart2HeartImage4.jpg",
+            "images/chatbotHeart2HeartImage5.jpg",    
+            "images/chatbotHeart2HeartImage6.jpg",     
+            "images/chatbotHeart2HeartImage7.jpg",
+            "images/chatbotHeart2HeartImage8.jpg",
+            "images/chatbotHeart2HeartImage9.jpg",
+            "images/chatbotHeart2HeartImage10.jpg",
+            "images/chatbotHeart2HeartImage11.jpg"
         ]
     };
 
