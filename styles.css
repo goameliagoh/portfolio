@@ -418,13 +418,27 @@ footer {
         font-size: 1rem;
     }
 
-    .about-me-container {
-        flex-direction: row; /* Ensure layout is row for large screens */
+    .about-container {
+        flex-direction: row;
+        justify-content: flex-start; /* Align closer */
+        gap: 1.5rem; /* Smaller gap for smaller screens */
+        margin: 0 2rem; /* Adjust margins for smaller screens */
     }
-    
-    .about-me-content {
+
+    .about-content {
         flex: 1;
-        margin-right: 20px; /* Adjust spacing */
+        padding: 1.5rem; /* Reduce padding further */
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .about-image img {
+        max-width: 55%; /* Adjust image size */
+        height: auto;
     }
 
     .profile-pic {
