@@ -79,7 +79,7 @@ header {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 
 /* Container for dotted borders */
@@ -197,16 +197,17 @@ header {
     font-size: 1.2rem;
     line-height: 2.3rem;
     margin-top: 1rem;
+    margin-right: -16rem; /* Moves the content to overlap the image */
 }
 
 .about-image {
-    margin-left: 2.5rem; /* Adds space between the text and the image */
+    margin-left: 7rem;
 }
 
 .about-image img {
-    max-width: 100%; /* Ensures the image resizes within its container */
+    max-width: 65%; /* Ensures the image resizes within its container */
     height: auto;
-    margin-right: 5.5rem;
+    margin-left: 10rem;
 }
 
 
